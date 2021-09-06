@@ -4,6 +4,7 @@
   "description": "child react component",
   "keywords": ["react", "starter"],
   "main": "build/index.js",
+  "files": ["build"],
   "dependencies": {
     "@material-ui/core": "4.12.3",
     "react": "17.0.2",
@@ -20,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "prepare": "npm i && yarn build && yarn delete",
+    "prepare": "npm run build",
     "delete": "del-cli --force ./src ./public ./.npmignore"
   },
   "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
