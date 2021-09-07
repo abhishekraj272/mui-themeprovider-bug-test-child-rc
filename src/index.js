@@ -4,11 +4,11 @@ import { MuiThemeProvider } from "@material-ui/core/styles";
 import theme from "./theme";
 import App from "./App";
 
-const rootElement = document.getElementById("root");
-
+// Toggle here, to run this standalone.
 const runAsApp = false;
 
 if (runAsApp) {
+  const rootElement = document.getElementById("root");
   ReactDOM.render(
     <StrictMode>
       <MuiThemeProvider theme={theme}>
