@@ -1,10 +1,10 @@
 {
   "name": "child-rc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "child react component",
   "keywords": ["react", "starter"],
-  "main": "build/index.js",
-  "files": ["build"],
+  "main": "dist/index.js",
+  "files": ["dist"],
   "dependencies": {
     "@material-ui/core": "4.12.3",
     "react": "17.0.2",
